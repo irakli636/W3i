@@ -51,7 +51,7 @@
   
 }
 
-a {
+.center-links a {
 
   text-transform: uppercase;
   text-decoration: none;
@@ -61,7 +61,7 @@ a {
   padding: 10px 5px;
   position: relative;
 }
-a:after {    
+.center-links a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -73,7 +73,7 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after { 
+.center-links a:hover:after { 
   width: 100%; 
   left: 0; 
 }
@@ -263,6 +263,7 @@ a:hover:after {
   margin-left: auto;
   margin-right: 12.8em;
   margin-top:125px;
+  
 }
 
 
@@ -296,3 +297,138 @@ a:hover:after {
   top:75px;
   
 }
+
+
+
+/** END CONTAINER 3 **/
+
+.purple-block-right {
+
+  display:block;
+  position:relative;
+  width: 500px;
+  height:350px;
+  left: 120px;
+  top:120px;
+}
+
+.purple-block-right h2 {
+  position: absolute;
+  left:40px;
+  top:20px;
+  font-size: 45px;
+  color: #edeefa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+}
+
+.purple-block-right h3 {
+  position: absolute;
+  left:40px;
+  bottom: 40px;
+  font-size: 25px;
+  color:#f6f6fc;
+
+}
+
+.bg-image-3 {
+
+  display: flex;
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  right:300px;
+  top:75px;
+  
+}
+
+.purple-block-right button {
+  position: absolute;
+  left:40px;
+  bottom: -15px;
+  font-size: 25px;
+  color:white;
+  font-size: 15px;
+  width: 200px;
+  height: 45px;
+  border: 0;
+  background:linear-gradient(-50deg, transparent 90px, #eff0f8  );
+  
+
+  border-radius: 3%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+/* END Container 4 */
+
+/* FLEX-BOX START */
+
+.service-tittle {
+ position: relative;
+  text-align:center;
+
+}
+
+.service-tittle h3 {
+  margin-top:20px;
+  font-size: 38px;
+  font-weight: 530;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#161938;
+}
+
+
+.service-tittle h4 {
+  margin-top:15px;
+  font-size: 25px;
+  font-weight: 330;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#848596;
+}
+
+.flexbox {
+
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 500px;
+  max-width: 100%;
+
+}
+
+.service-box {
+
+  display: flex;
+  position: relative;
+  left:0;
+  right:0;
+  bottom:0;
+  width: 300px;
+  height: 350px;
+  align-items: flex-end;
+  top:50px;
+  border:1px solid #dcdce7;
+  background: white;
+
+}
+
+.service-box img {
+
+  width: 300px;
+  height: 200px;
+  display: flex;
+  position: relative;
+}
+
+.service-box h2 {
+
+  
+  position: absolute;
+  left:25px;
+  top:20px;
+  font-weight: 500;
+  color:#161938;
+  font-size:28px;
+
+} 
